@@ -1,0 +1,76 @@
+<div>
+  <div class="row container2">
+    <div
+      class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center"
+    >
+      <mat-toolbar>
+        <button
+          mat-icon-button
+          class="example-icon"
+          aria-label="Example icon-button with menu icon"
+        >
+          <mat-icon>keyboard_backspace </mat-icon>
+        </button>
+
+        <span class="example-spacer"></span>
+        <button
+          mat-icon-button
+          class="example-icon"
+          aria-label="Example icon-button with share icon"
+        >
+          <mat-icon>delete_outline</mat-icon>
+        </button>
+      </mat-toolbar>
+    </div>
+
+    <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-xs-12 title">
+      <p class="carttitle">My Cart</p>
+
+      <p class="cartsubtitle">3 items has been selected</p>
+    </div>
+
+    <div
+      class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center cardset"
+    >
+      <mat-card class="card">
+        <mat-list>
+          <mat-list-item *ngFor="let list of FoodList">
+            <div class="col-lg-12 d-flex justify-content-between carddiv">
+              <div>
+                <div class="listtitle" mat-line>{{ list.name }}</div>
+                <div class="cardbottom" mat-line>{{ list.food }}</div>
+                <div class="listprice" mat-line>{{ list.price }}</div>
+              </div>
+
+              <div>
+                <button class="minbutton">+</button>
+                <p class="digit">2</p>
+                <button class="button">-</button>
+              </div>
+            </div>
+          </mat-list-item>
+        </mat-list>
+        <div class="bottomcard">
+          <div class="d-flex justify-content-between">
+            <div>
+              <p class="cardbottom">Item Total 3</p>
+              <p class="cardbottom">Table Number</p>
+            </div>
+            <div>
+              <p class="cardbottom">8.500</p>
+              <p class="cardbottom">C9</p>
+            </div>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-between">
+            <p class="total">Total Amount</p>
+            <p class="total">8.500 OMR</p>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button class="with-round-borders mat-button">Check Out</button>
+          </div>
+        </div>
+      </mat-card>
+    </div>
+  </div>
+</div>

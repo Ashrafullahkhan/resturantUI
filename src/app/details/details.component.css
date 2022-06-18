@@ -1,0 +1,113 @@
+.with-round-borders {
+  border-radius: 50px;
+  background-color: #fec140;
+  color: white;
+  margin-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  outline: none;
+}
+.dtext {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+
+  letter-spacing: 0.5px;
+
+  color: #827a85;
+}
+.price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  letter-spacing: 0.5px;
+
+  color: #121212;
+}
+.plus {
+  width: 30px;
+  height: 30px;
+  padding-top: 10%;
+  left: 320px;
+  top: 632.5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(221, 218, 213);
+  border-radius: 50px;
+}
+plus2 {
+  position: absolute;
+  width: 8px;
+  height: 0px;
+  left: 335px;
+  top: 643.5px;
+
+  border: 2px solid #121212;
+  transform: rotate(90deg);
+}
+.button {
+  background: #f3ede1;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  position: absolute;
+
+  color: white;
+}
+.minbutton {
+  border-radius: 100px;
+  outline: none;
+
+  background-color: #ffa12f;
+  border: none;
+  position: absolute;
+  margin-left: 50px;
+  color: black;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+mat-toolbar {
+  overflow: hidden;
+  background-color: white;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.avatar-group {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: left;
+  direction: rtl;
+}
+.avatar-group .avatar {
+  margin-left: -20px;
+}
+.hidden-avatars {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fec140;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 23px;
+}

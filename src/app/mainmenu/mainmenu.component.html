@@ -1,0 +1,109 @@
+<div>
+  <div class="row container2">
+    <div
+      class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center"
+    >
+      <img
+        src="../../assets/logo.png"
+        alt="logo"
+        width="250px"
+        class="styleimg"
+      />
+      <button class="btn b"></button>
+    </div>
+    <div
+      class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center"
+    >
+      <link
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet"
+      />
+      <form class="example-form">
+        <div class="input-container">
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Search top Food"
+            name="usrnm"
+          />
+          <i class="fa fa-search icon"></i>
+        </div>
+      </form>
+    </div>
+    <div
+      class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center"
+    >
+      <mat-chip-list>
+        <mat-basic-chip class="chip"> All </mat-basic-chip>
+
+        <mat-basic-chip selected>Salad</mat-basic-chip>
+        <mat-basic-chip selected>Sea Food</mat-basic-chip>
+      </mat-chip-list>
+    </div>
+    <div
+      class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center cardset"
+    >
+      <mat-card class="card">
+        <br />
+        <div class="cardtitle">Most Popular</div>
+        <br />
+        <mat-list>
+          <mat-list-item *ngFor="let list of FoodList">
+            <div class="col-lg-12 d-flex justify-content-between carddiv">
+              <div>
+                <div class="listtitle" mat-line>{{ list.name }}</div>
+                <div class="cardbottom" mat-line>{{ list.food }}</div>
+                <div class="listprice" mat-line>{{ list.price }}</div>
+              </div>
+              <div class="">
+                <img
+                  width="100px"
+                  src="../../assets/burger2.png"
+                  alt="Photo of a Shiba Inu"
+                />
+              </div>
+            </div>
+          </mat-list-item>
+        </mat-list>
+      </mat-card>
+    </div>
+    <div
+      class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-center"
+    >
+      <mat-toolbar>
+        <button
+          mat-icon-button
+          class="example-icon"
+          aria-label="Example icon-button with menu icon"
+        >
+          <mat-icon>home </mat-icon>
+        </button>
+
+        <span class="example-spacer"></span>
+        <button
+          mat-icon-button
+          class="example-icon favorite-icon"
+          aria-label="Example icon-button with heart icon"
+        >
+          <mat-icon>bookmark_border</mat-icon>
+        </button>
+        <span class="example-spacer"></span>
+        <button
+          mat-icon-button
+          class="example-icon"
+          aria-label="Example icon-button with share icon"
+        >
+          <mat-icon>card_travel</mat-icon>
+        </button>
+        <span class="example-spacer"></span>
+        <button
+          mat-icon-button
+          class="example-icon"
+          aria-label="Example icon-button with user icon"
+        >
+          <mat-icon>account_circle_border</mat-icon>
+        </button>
+      </mat-toolbar>
+    </div>
+  </div>
+</div>
