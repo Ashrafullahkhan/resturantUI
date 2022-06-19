@@ -22,7 +22,7 @@ mat-toolbar {
 }
 .cartsubtitle {
   margin-left: 20px;
-
+  margin-bottom: 35px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -37,7 +37,7 @@ mat-toolbar {
   margin-top: 35px;
 }
 mat-list {
-  max-height: 250px;
+  max-height: 65%;
   overflow: auto;
 }
 
@@ -83,8 +83,8 @@ mat-placeholder {
   background: #fff3d9;
 }
 .card {
-  width: 800px;
-  height: 540px;
+  width: 100%;
+  height: 37rem;
 }
 
 .style {
@@ -94,6 +94,8 @@ mat-placeholder {
 }
 .bottomcard {
   padding: 20px;
+  padding-top: 30px;
+  margin-bottom: 20px;
 }
 
 .cardbottom {
@@ -102,7 +104,7 @@ mat-placeholder {
   font-size: 14px;
   line-height: 19px;
   /* identical to box height */
-
+  margin-bottom: 10px;
   color: #c0b3bc;
 }
 .with-round-borders {
@@ -111,7 +113,8 @@ mat-placeholder {
   color: white;
   margin-top: 10px;
   padding-left: 150px;
-  padding-right: 150px;
+
+  padding-right: 190px;
   outline: none;
 }
 .button {

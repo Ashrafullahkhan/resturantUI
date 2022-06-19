@@ -38,6 +38,21 @@ export class MainmenuComponent implements OnInit {
       food: 'Starters',
       price: '$54.00',
     },
+    {
+      name: 'Crunchy',
+      food: 'Starters',
+      price: '$54.00',
+    },
+    {
+      name: 'Crunchy',
+      food: 'Starters',
+      price: '$54.00',
+    },
+    {
+      name: 'Crunchy',
+      food: 'Starters',
+      price: '$54.00',
+    },
   ];
 
   constructor() {}

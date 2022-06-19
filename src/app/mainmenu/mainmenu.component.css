@@ -7,9 +7,10 @@ body {
 }
 .styleimg {
   margin-top: 35px;
+  margin-bottom: 20px;
 }
 mat-list {
-  max-height: 300px;
+  height: 82%;
   overflow: auto;
 }
 
@@ -17,7 +18,6 @@ mat-toolbar {
   position: fixed;
   background-color: white;
   overflow: hidden;
-  margin-bottom: 50px;
 }
 .example-full-width {
   background-color: black;
@@ -29,7 +29,7 @@ mat-card {
   border-top-right-radius: 50px;
   border-top-width: 0.1px;
   margin-bottom: 0px;
-
+  height: 70%;
   border-top-style: groove;
 }
 .color {
@@ -67,10 +67,11 @@ mat-placeholder {
 }
 
 .card {
-  width: 800px;
+  width: 100%;
+  height: 34rem;
 }
 .cardset {
-  margin-bottom: -50px;
+  margin-bottom: -11%;
 }
 .style {
   font-size: 16px;
