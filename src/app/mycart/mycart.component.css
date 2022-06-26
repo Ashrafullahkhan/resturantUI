@@ -1,3 +1,26 @@
+code-input {
+  --item-spacing: 10px;
+  --item-height: 2.5em;
+}
+.digitcode {
+  width: 140px;
+}
+.codeinput {
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.input-field {
+  width: 100%;
+
+  border-radius: 30px;
+  padding: 10px;
+  background-color: rgb(241, 241, 241);
+  color: white;
+
+  outline: none;
+}
 mat-toolbar {
   overflow: hidden;
 
@@ -37,7 +60,7 @@ mat-toolbar {
   margin-top: 35px;
 }
 mat-list {
-  max-height: 65%;
+  max-height: 50%;
   overflow: auto;
 }
 

@@ -14,6 +14,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatBadgeModule } from '@angular/material/badge';
+import { CodeInputModule } from 'angular-code-input';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { MatBadgeModule } from '@angular/material/badge';
     MatToolbarModule,
     MatButtonModule,
     MatBadgeModule,
+    CodeInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

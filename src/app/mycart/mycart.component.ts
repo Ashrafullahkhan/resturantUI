@@ -38,6 +38,9 @@ export class MycartComponent implements OnInit {
     },
   ];
   constructor() {}
+  onCodeChanged(code: string) {}
 
+  // this called only if user entered full code
+  onCodeCompleted(code: string) {}
   ngOnInit(): void {}
 }
